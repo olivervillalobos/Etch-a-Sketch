@@ -53,8 +53,8 @@ window.addEventListener("load", () => {
         grid-template-columns: repeat(${size}, 1fr);
         grid-template-rows: repeat(${size}, 1fr);
         border: 1px solid black;
-        height: 20rem;
-        width: 20rem;
+        height: 80vh;
+        width: 80vh;
     `);
 
     for (let i = 0; i < size * size; i++) {
